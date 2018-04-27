@@ -1,0 +1,15 @@
+.holiday-list {
+    border-top: 1px solid #ccc;
+}
+.holiday-list .holiday-item{
+    border:1px solid #ccc;
+    border-top: none;
+    padding: 10px;
+}
+
+.holiday-item a,.holiday-item a:hover {
+    text-decoration: none;
+}
+.holiday-item a:active, .holiday-item a:visited {
+    color: #111111;
+}

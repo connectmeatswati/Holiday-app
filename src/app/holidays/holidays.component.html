@@ -1,0 +1,12 @@
+<h2>List of holidays</h2>
+<div class="holiday-list">
+  <div *ngFor="let holiday of holidaysList">
+      <div class="holiday-item" *ngFor="let holidayItem of holiday">
+          <a routerLink="/detail" (click)="setCurrentHoliday(holidayItem)">
+            <mat-toolbar>
+              <span>{{holidayItem.name}}</span>
+            </mat-toolbar>
+          </a>
+      </div>
+  </div>
+</div>
