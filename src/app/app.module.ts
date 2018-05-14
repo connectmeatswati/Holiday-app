@@ -7,7 +7,7 @@ import { HolidaysComponent } from './holidays/holidays.component';
 import { HolidayDetailsComponent } from './holiday-details/holiday-details.component';
 import { HolidaysService } from './holidays.service';
 import { AppRoutingModule } from './/app-routing.module';
-import { MatToolbarModule } from '@angular/material/toolbar';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    MatToolbarModule
+    
   ],
   providers: [HolidaysService],
   bootstrap: [AppComponent]
